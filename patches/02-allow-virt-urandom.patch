@@ -1,0 +1,12 @@
+Index: refpolicy-2.20220520/policy/modules/services/virt.te
+===================================================================
++++ a/policy/modules/services/virt.te
+@@ -1116,6 +1116,8 @@ manage_files_pattern(virt_bridgehelper_t
+ 
+ kernel_read_network_state(virt_bridgehelper_t)
+ 
++dev_read_urand(virt_bridgehelper_t)
++
+ corenet_rw_tun_tap_dev(virt_bridgehelper_t)
+ 
+ userdom_search_user_home_dirs(virt_bridgehelper_t)

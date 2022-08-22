@@ -1,0 +1,15 @@
+Index: refpolicy-2.20220520/policy/modules/system/systemd.te
+===================================================================
++++ a/policy/modules/system/systemd.te
+@@ -1522,6 +1522,11 @@ manage_files_pattern(systemd_resolved_t,
+ manage_sock_files_pattern(systemd_resolved_t, systemd_resolved_runtime_t, systemd_resolved_runtime_t)
+ init_runtime_filetrans(systemd_resolved_t, systemd_resolved_runtime_t, dir)
+ 
++# Allow systemd_resolved_t to read SELinux config and file contexts 
++seutil_read_config(systemd_resolved_t)
++seutil_read_default_contexts(systemd_resolved_t)
++seutil_read_file_contexts(systemd_resolved_t)
++
+ dev_read_sysfs(systemd_resolved_t)
+ 
+ kernel_read_crypto_sysctls(systemd_resolved_t)
