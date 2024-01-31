@@ -1,9 +1,0 @@
-include:
-  project: gardenlinux/gardenlinux-package-build
-  file: pipeline/pipeline.yml
-
-variables:
-  SOURCE_NAME: refpolicy
-  BUILD_ARCH_ALL: 'true'
-  BUILD_ARCH_AMD64: ''
-  BUILD_ARCH_ARM64: ''
