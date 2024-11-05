@@ -19,8 +19,8 @@ diff -urN debian/patches/02-allow-virt-urandom.patch refpolicy-2.20231119/debian
 diff -urN debian/patches/series refpolicy-2.20231119/debian/patches/series
 --- debian/patches/series	2023-12-06 10:03:35.000000000 +0100
 +++ refpolicy-2.20231119/debian/patches/series	2023-12-06 10:06:55.000000000 +0100
-@@ -17,3 +17,4 @@
- 3000-bookworm
+@@ -19,3 +19,4 @@
  4000-bubblewrap
+ 5000-buildfail
  01-allow-systemd-resolved-selinux-config.patch
 +02-allow-virt-urandom.patch

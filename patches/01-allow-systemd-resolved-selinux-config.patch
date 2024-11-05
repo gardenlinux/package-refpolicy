@@ -22,8 +22,8 @@ diff -urN refpolicy-2.20231119/debian/patches/01-allow-systemd-resolved-selinux-
 diff -urN refpolicy-2.20231119/debian/patches/series debian/patches/series
 --- refpolicy-2.20231119/debian/patches/series	2023-11-18 06:47:49.000000000 +0100
 +++ debian/patches/series	2023-12-06 10:03:35.000000000 +0100
-@@ -16,3 +16,4 @@
- 2000-hacks
+@@ -18,3 +18,4 @@
  3000-bookworm
  4000-bubblewrap
+ 5000-buildfail
 +01-allow-systemd-resolved-selinux-config.patch
