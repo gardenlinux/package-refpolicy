@@ -19,11 +19,10 @@ diff -urN refpolicy-2.20231119/debian/patches/01-allow-systemd-resolved-selinux-
 + dev_read_sysfs(systemd_resolved_t)
 + 
 + kernel_read_kernel_sysctls(systemd_resolved_t)
-diff -urN refpolicy-2.20231119/debian/patches/series debian/patches/series
---- refpolicy-2.20231119/debian/patches/series	2023-11-18 06:47:49.000000000 +0100
-+++ debian/patches/series	2023-12-06 10:03:35.000000000 +0100
-@@ -18,3 +18,4 @@
- 3000-bookworm
+--- a/debian/patches/series	2025-06-30 12:33:20.000000000 +0000
++++ b/debian/patches/series	2025-08-05 12:25:53.332951638 +0000
+@@ -22,3 +22,4 @@
  4000-bubblewrap
  5000-buildfail
+ trixie
 +01-allow-systemd-resolved-selinux-config.patch

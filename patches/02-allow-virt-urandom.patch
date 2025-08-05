@@ -16,11 +16,10 @@ diff -urN debian/patches/02-allow-virt-urandom.patch refpolicy-2.20231119/debian
 + corenet_rw_tun_tap_dev(virt_bridgehelper_t)
 + 
 + userdom_search_user_home_dirs(virt_bridgehelper_t)
-diff -urN debian/patches/series refpolicy-2.20231119/debian/patches/series
---- debian/patches/series	2023-12-06 10:03:35.000000000 +0100
-+++ refpolicy-2.20231119/debian/patches/series	2023-12-06 10:06:55.000000000 +0100
-@@ -19,3 +19,4 @@
- 4000-bubblewrap
+--- c/debian/patches/series	2025-08-05 12:25:53.332951638 +0000
++++ d/debian/patches/series	2025-08-05 12:28:05.048054782 +0000
+@@ -23,3 +23,4 @@
  5000-buildfail
+ trixie
  01-allow-systemd-resolved-selinux-config.patch
 +02-allow-virt-urandom.patch
