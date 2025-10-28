@@ -1,2 +1,2 @@
 apt_src refpolicy
-apply_patches
+import_upstream_patches
