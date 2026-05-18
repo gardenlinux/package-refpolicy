@@ -1,2 +1,2 @@
-apt_src refpolicy
+git_src --branch debian https://salsa.debian.org/selinux-team/refpolicy.git
 import_upstream_patches
