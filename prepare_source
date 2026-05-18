@@ -1,2 +1,7 @@
-apt_src refpolicy
+version_orig=2.20250213-11
+version="2:${version_orig}"
+version_suffix=gl1
+
+# there are no tags or branches used in this repo to pin the version
+git_src_commit "39488fe01d9de5175c5ccccfcac30b667965d701" "https://salsa.debian.org/selinux-team/refpolicy.git"
 import_upstream_patches
